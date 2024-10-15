@@ -6,9 +6,6 @@ renv::restore()  # restore the library
 library(cheddar)
 library(tidyverse)
 
-# Johan heeft deze file aangepast!
-# Bijzonder goed gedaan jongen!
-
 # load the data of the Tuesday Lake foodweb in 1984
 TL84<-cheddar::LoadCommunity("data/Cheddar_Data/TL84",fn='read.csv')
 head(TL84)
